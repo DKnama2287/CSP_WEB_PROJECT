@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import Login from './screens/Login';
 import Signup from './screens/Signup';
+import { CartProvider } from './Components/ContextReducer.js';
 function App() {
 
   useEffect(() => {
@@ -19,7 +20,8 @@ function App() {
   }, []);
  
   return (
-    <Router>
+    <CartProvider>
+      <Router>
        <div>
         <Routes>
             <Route exact path="/" element={<Home/>} />
@@ -28,6 +30,7 @@ function App() {
         </Routes>
        </div>
     </Router>
+    </CartProvider>
   );
 }
 

@@ -2,3 +2,5 @@ Purpose of this File is to test our understanding in GIT.
 Creating a Seperate folder "GIT_Test" of this purpose.
 
 Solving conflicts  made by other memebers.
+
+Creating a InterBranch Merge Merge Conflict (Swarnadip : Yogesh) (Different Part: Hello World)
