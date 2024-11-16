@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Card from '../Components/card'
+import Card from '../Components/Card'
 // import Carousel from '../components/Carousel'
 import Footer from '../Components/Footer'
 import Navbar from '../Components/Navbar'
@@ -43,13 +43,13 @@ export default function Home() {
               </div>
             </div>
             <div className="carousel-item active" >
-              <img src="https://cdn.pixabay.com/photo/2022/08/31/10/17/burger-7422970_640.jpg" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://www.mashed.com/img/gallery/fast-food-hamburgers-ranked-worst-to-best/intro-1540401194.jpg" className="d-block w-100 " style={{height: "500px", objectFit: "cover", filter: "brightness(30%)" }} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://img.freepik.com/free-photo/deep-fried-samosas-dumplings-gourmet-appetizer-generated-by-ai_188544-13491.jpg" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://img.freepik.com/free-photo/deep-fried-samosas-dumplings-gourmet-appetizer-generated-by-ai_188544-13491.jpg" className="d-block w-100 " style={{ height: "500px", objectFit: "cover", filter: "brightness(50%)" }} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://static.vecteezy.com/system/resources/previews/035/053/516/non_2x/ai-generated-background-veggie-vegan-food-zucchini-ai-generated-photo.jpg" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://static.vecteezy.com/system/resources/previews/035/053/516/non_2x/ai-generated-background-veggie-vegan-food-zucchini-ai-generated-photo.jpg" className="d-block w-100 " style={{height: "500px", objectFit: "cover", filter: "brightness(30%)" }} alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

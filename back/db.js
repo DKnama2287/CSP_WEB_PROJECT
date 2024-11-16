@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-const pass = process.env.pass;
+//const pass = process.env.pass;
 const url = `mongodb+srv://nama_dk:12340720@cluster1.pvrpi.mongodb.net/gofood?retryWrites=true&w=majority&appName=Cluster1`;
 
 mongoose.connect(url)
