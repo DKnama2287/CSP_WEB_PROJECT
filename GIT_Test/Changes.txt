@@ -2,3 +2,7 @@ Purpose of this File is to test our understanding in GIT.
 Creating a Seperate folder "GIT_Test" of this purpose.
 
 Adding commit 2 to create a merge conflict. (Will be waiting for Durgesh to create a conflict)
+
+Creating a InterBranch Merge Merge Conflict (Swarnadip : Durgesh) (Different Part: Hello World)
+
+Creating a InterBranch Merge Merge Conflict (Swarnadip : Yogesh) (Different Part: Hello World)
