@@ -37,7 +37,7 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/user", {
+    const response = await fetch("https://food-ordering-web-app-j4fu.onrender.com/user", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
